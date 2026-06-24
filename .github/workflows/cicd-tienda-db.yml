@@ -9,7 +9,7 @@ env:
   AWS_REGION: us-east-1                  # La región de AWS
   ECR_REPOSITORY: innovatech-db     # El nombre del repositorio en ECR
   ECS_CLUSTER: innovatech-cluster        # El nombre del clúster ECS
-  ECS_SERVICE: db-service           # El nombre del servicio en ECS
+  ECS_SERVICE: database          # El nombre del servicio en ECS
 
 jobs:
   deploy:
